@@ -1,0 +1,30 @@
+<h1 class="ok">one</h1>
+<h1 class="ok">two</h1>
+<h1 class="ok">three</h1>
+
+<script>
+
+var h1=document.querySelectorAll(".ok")
+console.log(h1) //NodeList(3)
+// 0: h1.ok
+// 1: h1.ok
+// 2: h1.oklength: 3
+// [[Prototype]]: NodeList
+
+
+</script>
+
+<!-- =============================== -->
+
+
+<h1 class="ok">one</h1>
+<h1 class="ok">two</h1>
+<h1 class="ok">three</h1>
+
+<script>
+    //div select
+    var div=document.querySelectorAll(".ok")
+    for(count=0;count<div.length;count=count+1){ //3:17:30
+        console.log(div[count].textContent);
+    }
+</script>
